@@ -1,3 +1,4 @@
 function afficherMessage() {
-    alert("J'adore apprendre le développement web et créer mes propres projets !");
+    document.getElementById("message").innerText =
+        "Merci de visiter ma page personnelle ! 🚀";
 }
